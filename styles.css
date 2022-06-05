@@ -1,0 +1,36 @@
+body {
+    background-color: #202020;
+    color: azure;
+    font-family: Arial;
+}
+
+.navbar img {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar .my-2 .avatar-image {
+    height: 50px;
+    width: 50px;
+}
+
+.dropdown .btn {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.d-flex .symbol-1 {
+    text-align: center;
+    padding: 4px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.d-flex .symbol-2 {
+    text-align: center;
+    padding: 4px;
+    width: 40px;
+    height: 30px;
+    border: 1px solid white;
+}
