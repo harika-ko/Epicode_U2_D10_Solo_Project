@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <title>Settings Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .navbar {
+            color: azure;
+            background-color: black;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .gray-color {
+            color: gray;
+        }
+
+        .cancel-membership {
+            padding: 5px 18px;
+            border-color: transparent;
+        }
+
+        .ultra-hd {
+            padding: 0px;
+            height: 20px;
+            font-size: 15px;
+            text-align: center;
+            letter-spacing: 0.1rem;
+        }
+
+        .net-links {
+            line-height: 0.7rem;
+        }
+
+        .settings-2 {
+            margin-left: 200px;
+            line-height: 0.7rem;
+        }
+
+        .settings-3 {
+            margin-left: 240px;
+            line-height: 0.7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fluid-container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="assets/netflix_logo.png" alt="Netflix Logo" />
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recently Added</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My List</a>
+                    </li>
+                </ul>
+                <form class="my-2 my-lg-0">
+                    <i class="bi bi-search mr-3"></i>
+                    <span class="mr-3">KIDS</span>
+                    <i class="bi bi-bell-fill mr-3"></i>
+                    <img class="avatar-image mr-2" src="assets/avatar.png" alt="Avatar Image" />
+                    <i class="bi bi-caret-down-fill"></i>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h2 class="mt-4">Account</h2>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <p class="gray-color">MEMBERSHIP & BILLING</p>
+                <input type="button" value="Cancel Membership" class="cancel-membership" />
+            </div>
+            <div class="col-12 col-lg-9 d-flex">
+                <div class="details">
+                    <p><strong>student@strive.school</strong></p>
+                    <p class="gray-color">Password: *******</p>
+                    <p class="gray-color">Phone: 321 044 1279</p>
+                    <i class="bi bi-paypal"></i>
+                    <span>PayPal &nbsp; admin@strive.school</span>
+                </div>
+                <div class="ml-auto net-links">
+                    <p><a href="#">Change account email</a></p>
+                    <p><a href="#">Change Password</a></p>
+                    <p><a href="#">Change Phone Number</a></p>
+                    <p><a href="#">Update Payment Info</a></p>
+                    <p><a href="#">Billing Details</a></p>
+                    <p><a href="#">Redeem Gift Card or Promo Code</a></p>
+                    <p><a href="#">Where to buy Gift Cards</a></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12  col-lg-3">
+                <p class="gray-color">PLAN DETAILS</p>
+            </div>
+            <div class="col-12  col-lg-9 d-flex">
+                <div class="">
+                    <span>PREMIUM</span>
+                    <input type="button" value="ULTRA HD" class="ultra-hd ml-2" />
+                </div>
+                <div class="ml-auto">
+                    <p><a href="#">Change plan</a></p>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-1">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <p class="gray-color">SETTINGS</p>
+            </div>
+            <div class="col-12 col-lg-9 d-flex">
+                <div class="net-links">
+                    <p><a href="#">Parental controls</a></p>
+                    <p><a href="#">Test participation</a></p>
+                    <p><a href="#">Manage download devices</a></p>
+                    <p><a href="#">Activate a device</a></p>
+                    <p><a href="#">Recent device streaming activity</a></p>
+                    <p><a href="#">Sign out of all devices</a></p>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-1">
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <p class="gray-color">MY PROFILE</p>
+            </div>
+            <div class="d-flex col-12 col-md-4 col-lg-9">
+                <div class="settings">
+                    <h6 class="mb-4">Strive Student</h6>
+                    <div class="net-links">
+                        <p><a href="#">Language</a></p>
+                        <p><a href="#">Playback Settings</a></p>
+                        <p><a href="#">Subtitle Appearence</a></p>
+                    </div>
+                </div>
+                <div class="mt-5 settings-2">
+                    <p><a href="#">Viewing Activity</a></p>
+                    <p><a href="#">Ratings</a></p>
+                </div>
+
+                <div class="settings-3">
+                    <p><a href="#">Manage Profiles</a></p>
+                    <p><a href="#">Add Profile Email</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
